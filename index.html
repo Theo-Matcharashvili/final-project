@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+		<meta name="description" content="Portfolio-Theo Matcharashvili">
+		<meta name="keywords" content="HTML,CSS , Javascript, Front-End">
+	    <meta name="author" content="Theo Matcharashvili">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>My Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+    </head>
+    <body>
+        <section class="section1"> <!-- section 1 -  slider -->
+            <div class="top-left">
+                <p>Roca.</p>
+                <p>Resume Template</p>
+            </div>
+            <div class="top-right">
+                <span>01</span>
+                <span>About me</span>
+            </div>
+            <div class="centered">
+                <p>Hi, I’ Am</p>
+                <p>Theo Matcharashvili </p>
+                <p> I am Front-End Developer @company.com</p>
+                <div> <!--icons-->
+                    <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
+                    <a href=""> <img src="images/google.png" alt="google +" ></a>
+                    <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
+                    <a href=""> <img src="images/github.png" alt="github"></a>
+                </div>
+            </div>
+            <div class="bottom-right">
+                <span>100% Satisfied Clients</span>
+            </div>
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="images/img1.jpg" alt="Theo Matcharashvili" >
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/img2.jpg" alt="Theo Matcharashvili" >
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/img3.jpg"  alt="Theo Matcharashvili">
+                </div>
+            </div>
+        </section>
+        <section> <!-- section 2 - more information- Charts-->
+            <div class="about-me ">
+                <div class="ab">
+                    <h2>Theo Matcharashvili </h2>
+                    <h4>Front-End Developer</h4>
+                    <p>
+                        Lorem ipsum dolor sit.
+                    </p>
+                    <div> 
+                        <span> HIRE ME</span>
+                    </div>
+                </div>
+                <div class="ab">
+                    <img src="images/myimg.jpg" alt="Theo Matcharashvili" style="width: 200px;"> <!-- delete this style later-->
+                </div>
+                <div class="ab" > <!-- bar chart-->
+                    <h6 onmouseover="move1()"> HTML </h6>
+                    <div class="progress">
+                        <div class="myBar" id="htmlProgress"></div>
+                    </div>                    
+                    <h6 onmouseover="move2()"> CSS </h6>
+                    <div class="progress">
+                        <div class="myBar" id="cssProgress"></div>
+                    </div>
+                    <h6 onmouseover="move3()"> Javascript </h6>
+                    <div class="progress">
+                        <div class="myBar" id="jsProgress"></div>
+                    </div>
+                    <h6 onmouseover="move4()"> Git </h6>
+                    <div class="progress">
+                        <div class="myBar" id="gitProgress"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div>
+                    <img src="images/phone.svg" alt="phone icon">
+                    <h6>Phone Number</h6>
+                    <span> +995 555 10 37 02</span>
+
+                </div>
+                <div>
+                    <img src="images/address.svg" alt="addres icon"> 
+                    <h6 >User Address</h6>
+                    <span>Tbilisi, Georgia </span>  
+                </div>
+                <div> 
+                    <img src="images/email.svg" alt=" email icon"> 
+                    <h6>Email Address</h6>
+                    <span>macharashviliteo98@gmail.com </span>
+                </div>
+
+            </div>
+        </section> 
+        
+        <section><!--section 3 - services -->
+            <div class="grid"> 
+                <div class="logo-holder">
+                    <img src="images/design.svg" alt="design icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/service.svg" alt="service icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/pixel.svg" alt="pixel perfect icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/ideas.svg" alt="design icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/analysis.svg" alt="design icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/chart.svg" alt="design icon" class="image" >
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/support.svg" alt="design icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+                <div class="logo-holder">
+                    <img src="images/support.svg" alt="design icon" class="image">
+                    <div class="text">Lorem ipsum dolor sit. </div>
+                </div>
+            </div>
+        </section>
+        <section> <!-- section 4 - recomendations  -> slider 2 -->
+            <div class="section4">
+                <img src="images/clip.jpg" alt="background" class="background" >
+                <div class="sliderContainer">
+                    <div class="quote1">
+                        <div class="quoteText">What separates design from art is that design is meant to be… functional.
+                        </div>
+                        <div class="outline"> <img src="images/cmoll.jpg" alt="Cameron Moll" class="quoteImg"> </div>
+                        <div> 
+                            <span> &#8220;</span>
+                            <p>Graphic Designer</p>
+                            <p>Cameron Moll</p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+        <section> <!--  section 5 - latest projects -->
+            <div class="section5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, fugit.</p> 
+
+            </div>
+
+        </section>
+        <section> <!-- section 6 - latest articles -->
+            <h6>NEWS & EVENT</h6>
+            <h2>Latest Articles</h2>
+            <div class="articleContent">
+                <div>
+                    <img src="images/Icon1.svg" alt="icon" > 
+                    <h6> IN FREELANCING COMPANY </h6>
+                    <h4> Graphic Designer+ </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quibusdam odit mollitia fugit provident consequatur magni molestias eum. Ea, dolor.</p>
+                </div>
+                <div> 2020-2021 </div>
+                <div>
+                    <img src="images/1.png" alt="coding" class="articleImages">
+                </div>
+            </div>
+            <div class="articleContent">
+                <div>
+                    <img src="images/5.png" alt="coding" class="articleImages">
+                </div>
+                <div> 2019-2020 </div>
+                <div>
+                    <img src="images/Icon2.svg" alt="icon"> 
+                    <h6> IN FREELANCING COMPANY </h6>
+                    <h4> Application Design </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos accusamus itaque blanditiis earum officiis doloribus error quod ratione impedit?</p>
+                </div>   
+            </div>
+            <div class="articleContent">
+                <div>
+                    <img src="images/Icon3.svg" alt="icon">
+                    <h6> IN FREELANCING COMPANY </h6>
+                    <h4> Personal Adviser </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum voluptatibus culpa? Eum nemo quibusdam vero ut illum officiis laborum?</p>
+                </div>
+                <div> 2018-2019 </div>
+                <div>
+                    <img src="images/7.png" alt="coding" class="articleImages">
+                </div>
+
+            </div>
+            
+
+        </section>
+        <section> <!-- section 7 - rose team  -->
+            <div>
+                <h6> NEWS & EVENT </h6>
+                <h4> Rosa Team </h4>
+                
+                <div class="user-comments">
+                    <div class="logo-holder"> 
+                        <img src="images/marge.png" alt="user avatar" class="image avatar">
+                        <div class="text">
+                            <h6> CLIENT 1 </h6>
+                            <p>ipsum dolor sit.</p>  
+                        </div>
+                    </div>
+                    <div class="logo-holder">  
+                        <img src="images/homer.png" alt="user avatar" class="image avatar">
+                        <div class="text">
+                            <h6> CLIENT 2 </h6>
+                            <p>ipsum dolor sit.</p>  
+                        </div>
+                    </div>
+                    <div class="logo-holder">  
+                        <img src="images/bart.png" alt="user avatar" class="image avatar">
+                        <div class="text">
+                            <h6> CLIENT 3 </h6>
+                            <p>ipsum dolor sit.</p>  
+                        </div>
+                    </div>
+                    <div class="logo-holder">  
+                        <img src="images/lisa.png" alt="user avatar" class="image avatar">
+                        <div class="text">
+                            <h6> CLIENT 4 </h6>
+                            <p>ipsum dolor sit.</p>  
+                        </div>
+                    </div>
+                    <div class="logo-holder">  
+                        <img src="images/maggie.png" alt="user avatar" class="image avatar">
+                        <div class="text">
+                            <h6> CLIENT 5 </h6>
+                            <p>ipsum dolor sit.</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section> <!-- section 8 -  contact us - contact form -->
+
+        </section>
+        <footer>
+            
+        </footer>
+      <!--<script scr="app.js"></script> --> 
+      <script>
+          //section 1 -  slider
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+        //section 2 - bar chart
+        function move1() {
+        var elem = document.getElementById("htmlProgress");   
+        var width = 0;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width == 100) {
+            clearInterval(id);
+            } else {
+            width++; 
+            elem.style.width = width + '%'; 
+            }
+        }
+        } 
+        function move2() {
+        var elem = document.getElementById("cssProgress");   
+        var width = 0;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width == 90) {
+            clearInterval(id);
+            } else {
+            width++; 
+            elem.style.width = width + '%'; 
+            }
+        }
+        } 
+        function move3() {
+        var elem = document.getElementById("jsProgress");   
+        var width = 0;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width == 70) {
+            clearInterval(id);
+            } else {
+            width++; 
+            elem.style.width = width + '%'; 
+            }
+        }
+        } 
+         function move4() {
+        var elem = document.getElementById("gitProgress");   
+        var width = 0;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width == 80) {
+            clearInterval(id);
+            } else {
+            width++; 
+            elem.style.width = width + '%'; 
+            }
+        }
+        }   
+
+      </script> 
+    </body>
+</html>
