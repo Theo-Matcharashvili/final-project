@@ -39,11 +39,11 @@
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
-                  <img src="images/img1.jpg" alt="Theo Matcharashvili" >
+                  <img src="images/me.JPG" alt="Theo Matcharashvili" >
                 </div>
               
                 <div class="mySlides fade">
-                  <img src="images/img2.jpg" alt="Theo Matcharashvili" >
+                  <img src="images/img1.jpg" alt="Theo Matcharashvili" >
                 </div>
               
                 <div class="mySlides fade">
@@ -82,6 +82,12 @@
                     <h6 onmouseover="move4()"> Git </h6>
                     <div class="progress">
                         <div class="myBar" id="gitProgress"></div>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
+                        <a href=""> <img src="images/google.png" alt="google +" ></a>
+                        <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
+                        <a href=""> <img src="images/github.png" alt="github"></a>
                     </div>
                 </div>
             </div>
@@ -141,12 +147,12 @@
                     <div class="text">Lorem ipsum dolor sit. </div>
                 </div>
             </div>
-        </section>
+        </section> 
         <section> <!-- section 4 - recomendations  -> slider 2 -->
             <div class="section4">
-                <img src="images/clip.jpg" alt="background" class="background" >
-                <div class="sliderContainer">
-                    <div class="quote1">
+              <!--  <img src="images/clip.jpg" alt="background" class="background" >  -->
+                <div class="slideshow-container">
+                    <div class="slides fade">
                         <div class="quoteText">What separates design from art is that design is meant to be… functional.
                         </div>
                         <div class="outline"> <img src="images/cmoll.jpg" alt="Cameron Moll" class="quoteImg"> </div>
@@ -156,6 +162,32 @@
                             <p>Cameron Moll</p>
                         </div>   
                     </div>
+                    <div class="slides fade">
+                        <div class="quoteText">What separates design from art is that design is meant to be… functional.
+                        </div>
+                        <div class="outline"> <img src="images/cmoll.jpg" alt="Cameron Moll" class="quoteImg"> </div>
+                        <div> 
+                            <span> &#8220;</span>
+                            <p>Lorem, ipsum.</p>
+                            <p>Cameron Moll</p>
+                        </div>   
+                    </div>
+                    <div class="slides fade">
+                        <div class="quoteText">Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </div>
+                        <div class="outline"> <img src="images/cmoll.jpg" alt="Cameron Moll" class="quoteImg"> </div>
+                        <div> 
+                            <span> &#8220;</span>
+                            <p>Graphic Designer</p>
+                            <p>Cameron Moll</p>
+                        </div>   
+                    </div>
+                   
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
                 </div>
             </div>
 
@@ -163,52 +195,103 @@
         </section>
         <section> <!--  section 5 - latest projects -->
             <div class="section5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, fugit.</p> 
+                <h5>Latest Projects</h5>
+               <div class="tab">
+                    <button class="tablinks" onclick="openContent(event, 'all')" id="defaultOpen">all</button>
+                    <button class="tablinks" onclick="openContent(event, 'Work')">Work</button>
+                    <button class="tablinks" onclick="openContent(event, 'ideas')">ideas</button>
+                    <button class="tablinks" onclick="openContent(event, 'Mockup')">Mockup</button>
+                    <button class="tablinks" onclick="openContent(event, 'PSD')">PSD</button>
+                    <button class="tablinks" onclick="openContent(event, 'Design')">Design</button>
+                    <button class="tablinks" onclick="openContent(event, 'Logo')">Logo</button>
+                    <button class="tablinks" onclick="openContent(event, 'Presentation')">Presentation</button>
+                    <button class="tablinks" onclick="openContent(event, 'Icons')">Icons</button>
+                  </div>
+                
+                  <div id="all" class="tabcontent">
+                    <h3>All</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  
+                  <div id="Work" class="tabcontent">
+                    <h3>Work</h3>
+                    <p>Lorem ipsum dolor sit amet.</p> 
+                  </div>
+                  
+                  <div id="ideas" class="tabcontent">
+                    <h3>ideas</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div id="Mockup" class="tabcontent">
+                    <h3>Mockup</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div id="PSD" class="tabcontent">
+                    <h3>PSD</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div id="Design" class="tabcontent">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div id="Logo" class="tabcontent">
+                    <h3>Logo</h3>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                  </div>
+                  <div id="Presentation" class="tabcontent">
+                    <h3>Presentation</h3>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                  </div>
+                  <div id="Icons" class="tabcontent">
+                    <h3>Icons</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
 
             </div>
 
         </section>
         <section> <!-- section 6 - latest articles -->
-            <h6>NEWS & EVENT</h6>
-            <h2>Latest Articles</h2>
-            <div class="articleContent">
-                <div>
-                    <img src="images/Icon1.svg" alt="icon" > 
-                    <h6> IN FREELANCING COMPANY </h6>
-                    <h4> Graphic Designer+ </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quibusdam odit mollitia fugit provident consequatur magni molestias eum. Ea, dolor.</p>
+            <div class="section6"></div>
+                <h6>NEWS & EVENT</h6>
+                <h2>Latest Articles</h2>
+                <div class="articleContent">
+                    <div>
+                        <img src="images/Icon1.svg" alt="icon" > 
+                        <h6> IN FREELANCING COMPANY </h6>
+                        <h4> Graphic Designer+ </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quibusdam odit mollitia fugit provident consequatur magni molestias eum. Ea, dolor.</p>
+                    </div>
+                    <div> 2020-2021 </div>
+                    <div>
+                        <img src="images/1.png" alt="coding" class="articleImages">
+                    </div>
                 </div>
-                <div> 2020-2021 </div>
-                <div>
-                    <img src="images/1.png" alt="coding" class="articleImages">
+                <div class="articleContent">
+                    <div>
+                        <img src="images/5.png" alt="coding" class="articleImages">
+                    </div>
+                    <div> 2019-2020 </div>
+                    <div>
+                        <img src="images/Icon2.svg" alt="icon"> 
+                        <h6> IN FREELANCING COMPANY </h6>
+                        <h4> Application Design </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos accusamus itaque blanditiis earum officiis doloribus error quod ratione impedit?</p>
+                    </div>   
                 </div>
-            </div>
-            <div class="articleContent">
-                <div>
-                    <img src="images/5.png" alt="coding" class="articleImages">
-                </div>
-                <div> 2019-2020 </div>
-                <div>
-                    <img src="images/Icon2.svg" alt="icon"> 
-                    <h6> IN FREELANCING COMPANY </h6>
-                    <h4> Application Design </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos accusamus itaque blanditiis earum officiis doloribus error quod ratione impedit?</p>
-                </div>   
-            </div>
-            <div class="articleContent">
-                <div>
-                    <img src="images/Icon3.svg" alt="icon">
-                    <h6> IN FREELANCING COMPANY </h6>
-                    <h4> Personal Adviser </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum voluptatibus culpa? Eum nemo quibusdam vero ut illum officiis laborum?</p>
-                </div>
-                <div> 2018-2019 </div>
-                <div>
-                    <img src="images/7.png" alt="coding" class="articleImages">
-                </div>
+                <div class="articleContent">
+                    <div>
+                        <img src="images/Icon3.svg" alt="icon">
+                        <h6> IN FREELANCING COMPANY </h6>
+                        <h4> Personal Adviser </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum voluptatibus culpa? Eum nemo quibusdam vero ut illum officiis laborum?</p>
+                    </div>
+                    <div> 2018-2019 </div>
+                    <div>
+                        <img src="images/7.png" alt="coding" class="articleImages">
+                    </div>
 
-            </div>
-            
+                </div>
+             </div>
 
         </section>
         <section> <!-- section 7 - rose team  -->
@@ -299,13 +382,26 @@
           <div class="modal-footer">
           </div>
         </div>
-      </div>
-  
+    </div>
                 </form>
             </div>
         </section>
         <footer>
-            
+            <div>
+                <h4>Roca.</h4>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. </p>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
+                        <a href=""> <img src="images/google.png" alt="google +" ></a>
+                        <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
+                        <a href=""> <img src="images/github.png" alt="github"></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p> © All right reserved 2019. Rosa - Creative Agency Website PSD Template. </p>
+            </div>
         </footer>
       <script src="app.js"></script>
     </body>
