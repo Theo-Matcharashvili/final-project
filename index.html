@@ -12,146 +12,198 @@
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
     </head>
     <body>
-        <section class="section1"> <!-- section 1 -  slider -->
-            <div class="top-left">
-                <p>Roca.</p>
-                <p>Resume Template</p>
-            </div>
-            <div class="top-right">
-                <span>01</span>
-                <span>About me</span>
-            </div>
-            <div class="centered">
-                <p>Hi, I’ Am</p>
-                <p>Theo Matcharashvili </p>
-                <p> I am Front-End Developer @company.com</p>
-                <div> <!--icons-->
-                    <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
-                    <a href=""> <img src="images/google.png" alt="google +" ></a>
-                    <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
-                    <a href=""> <img src="images/github.png" alt="github"></a>
+        <section > <!-- section 1 -  slider -->
+            <div class="section1">
+                 <div class="top-left">
+                    <span class="top-left-up"> Roca. </span>
+                    <span class="top-left-down"> Resume Template </span>
                 </div>
-            </div>
-            <div class="bottom-right">
-                <span>100% Satisfied Clients</span>
-            </div>
-            <div class="slideshow-container">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                  <img src="images/me.JPG" alt="Theo Matcharashvili" >
+                <div class="top-right">
+                    <span class="top-right-up">01</span>
+                    <span class="top-right-down">About me</span>
                 </div>
-              
-                <div class="mySlides fade">
-                  <img src="images/img1.jpg" alt="Theo Matcharashvili" >
-                </div>
-              
-                <div class="mySlides fade">
-                  <img src="images/img3.jpg"  alt="Theo Matcharashvili">
-                </div>
-            </div>
-        </section>
-        <section> <!-- section 2 - more information- Charts-->
-            <div class="about-me ">
-                <div class="ab">
-                    <h2>Theo Matcharashvili </h2>
-                    <h4>Front-End Developer</h4>
-                    <p>
-                        Lorem ipsum dolor sit.
-                    </p>
-                    <div> 
-                        <span> HIRE ME</span>
+                <div class="centered">
+                    <div>
+                        <span class="centered1"> Hi, I’ Am </span>
+                    <span class="centered2"> Theo Matcharashvili </span>
+                    <span class="centered3"> I am Front-End Developer @company.com </span>
+                    </div>       
+                    <div class="icons-container"> <!--icons-->
+                        <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img  src="images/facebook.png" alt="facebook" class="icons"></a>
+                        <a href=""> <img src="images/google.png" alt="google +"  class="icons"></a>
+                        <a href=""> <img src="images/linkedin.png" alt="linkedin" class="icons"></a>
+                        <a href=""> <img src="images/github.png" alt="github" class="icons"></a>
                     </div>
                 </div>
-                <div class="ab">
-                    <img src="images/myimg.jpg" alt="Theo Matcharashvili" style="width: 200px;"> <!-- delete this style later-->
+                
+                <div class="bottom-right">
+                    <span > <span class="bottom-right-pink"> 100% </span>  Satisfied Clients </span>
                 </div>
-                <div class="ab" > <!-- bar chart-->
-                    <h6 onmouseover="move1()"> HTML </h6>
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides">
+                    <img src="images/me.JPG" alt="Theo Matcharashvili" >
+                    </div>
+                    <div class="mySlides">
+                    <img src="images/img1.jpg" alt="Theo Matcharashvili" >
+                    </div>            
+                    <div class="mySlides">
+                    <img src="images/img3.jpg"  alt="Theo Matcharashvili">
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section> <!-- section 2 - more information- Charts-->
+            <div class="section2 ">
+                <div class="about-me left-cont " >
+                    <h1>Theo Matcharashvili </h1>
+                    <h4>Front-End Developer</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam nobis inventore magnam iure neque vel. Iusto id ex, aspernatur eligendi debitis assumenda voluptatum optio quo ab eveniet quaerat dolorem? Voluptatibus.
+                    </p>
+                    <button class="hire-me"> HIRE ME </button>   
+                </div>
+                <div class="about-me">
+                    <img src="images/myimg.jpg" alt="Theo Matcharashvili" class="section2-img" > 
+                </div>
+                <div class="about-me" > <!-- bar chart-->
+                    <h6 onmouseover="move1()"> HTML <span class="chart-percentage">(100%)</span> </h6>
                     <div class="progress">
                         <div class="myBar" id="htmlProgress"></div>
                     </div>                    
-                    <h6 onmouseover="move2()"> CSS </h6>
+                    <h6 onmouseover="move2()"> CSS <span class="chart-percentage" >(90%)</span> </h6>
                     <div class="progress">
                         <div class="myBar" id="cssProgress"></div>
                     </div>
-                    <h6 onmouseover="move3()"> Javascript </h6>
+                    <h6 onmouseover="move3()"> Javascript <span class="chart-percentage" >(70%)</span> </h6>
                     <div class="progress">
                         <div class="myBar" id="jsProgress"></div>
                     </div>
-                    <h6 onmouseover="move4()"> Git </h6>
+                    <h6 onmouseover="move4()"> Git <span class="chart-percentage" >(80%)</span> </h6>
                     <div class="progress">
                         <div class="myBar" id="gitProgress"></div>
                     </div>
-                    <div>
-                        <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
-                        <a href=""> <img src="images/google.png" alt="google +" ></a>
-                        <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
-                        <a href=""> <img src="images/github.png" alt="github"></a>
+                    <div class="icons-container">
+                        <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook" class="icons"></a>
+                        <a href=""> <img src="images/google.png" alt="google +" class="icons" ></a>
+                        <a href=""> <img src="images/linkedin.png" alt="linkedin" class="icons"></a>
+                        <a href=""> <img src="images/github.png" alt="github" class="icons"></a>
                     </div>
                 </div>
             </div>
             <div class="contact-info">
-                <div>
+                <div class="contact">
                     <img src="images/phone.svg" alt="phone icon">
-                    <h6>Phone Number</h6>
-                    <span> +995 555 10 37 02</span>
-
+                   <div>
+                        <h6>Phone Number</h6>
+                        <span> +995 555 10 37 02</span>
+                   </div> 
                 </div>
-                <div>
+                <div class="contact">
                     <img src="images/address.svg" alt="addres icon"> 
-                    <h6 >User Address</h6>
-                    <span>Tbilisi, Georgia </span>  
+                    <div>
+                        <h6 >User Address</h6>
+                        <span>Tbilisi, Georgia </span> 
+                    </div>
                 </div>
-                <div> 
+                <div class="contact" > 
                     <img src="images/email.svg" alt=" email icon"> 
-                    <h6>Email Address</h6>
-                    <span>macharashviliteo98@gmail.com </span>
+                    <div>
+                        <h6>Email Address</h6>
+                        <span>macharashviliteo98@gmail.com </span> 
+                    </div>
                 </div>
-
             </div>
         </section> 
         
         <section><!--section 3 - services -->
             <div class="grid"> 
-                <div class="logo-holder">
-                    <img src="images/design.svg" alt="design icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div  class="hide logo-holder">
+                        <img src="images/design.svg" alt="design icon" >
+                        <span > Graphichs Design </span>
+                    </div>
+                    <div class="text">
+                        <span> Graphichs Design </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/service.svg" alt="service icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/service.svg" alt="service icon" >
+                        <span > Best Service </span>
+                    </div>
+                    <div class="text">
+                        <span>  Best Service </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/pixel.svg" alt="pixel perfect icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/pixel.svg" alt="pixel perfect icon" >
+                        <span > Pixel Perfect </span>
+                    </div>
+                    <div class="text">
+                        <span> Pixel Perfect  </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/ideas.svg" alt="design icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/ideas.svg" alt="design icon" >
+                        <span > Best Service </span>
+                    </div>
+                    <div class="text">
+                        <span> Best Service </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/analysis.svg" alt="design icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/analysis.svg" alt="design icon" >
+                        <span > Pixel Perfect </span>
+                    </div>
+                    <div class="text">
+                        <span> Pixel Perfect </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/chart.svg" alt="design icon" class="image" >
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/chart.svg" alt="design icon" >
+                        <span > Fully Managed </span>
+                    </div>
+                    <div class="text">
+                        <span> Fully Managed </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/support.svg" alt="design icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/support.svg" alt="design icon" >
+                        <span > Helpful Support </span>
+                    </div>
+                    <div class="text">
+                        <span> Helpful Support </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
-                <div class="logo-holder">
-                    <img src="images/support.svg" alt="design icon" class="image">
-                    <div class="text">Lorem ipsum dolor sit. </div>
+                <div class="grid-item ">
+                    <div class="hide logo-holder">
+                        <img src="images/trending.png" alt="design icon" >
+                        <span class="grid-item-title"> Trenting </span>  
+                    </div>
+                    <div class="text">
+                        <span> Trenting </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, minima?</p>    
+                    </div>
                 </div>
             </div>
         </section> 
         <section> <!-- section 4 - recomendations  -> slider 2 -->
-            <div class="section4">
-              <!--  <img src="images/clip.jpg" alt="background" class="background" >  -->
-                <div class="slideshow-container">
+            <!--<div class="section4">
+                <img src="images/clip.jpg" alt="background" class="background" >
+                 <div class="slideshow-container">
                     <div class="slides fade">
                         <div class="quoteText">What separates design from art is that design is meant to be… functional.
                         </div>
@@ -189,147 +241,171 @@
                     <span class="dot"></span> 
                     <span class="dot"></span> 
                 </div>
-            </div>
-
-            
+                -->
+            </div>  
         </section>
         <section> <!--  section 5 - latest projects -->
             <div class="section5">
-                <h5>Latest Projects</h5>
-               <div class="tab">
-                    <button class="tablinks" onclick="openContent(event, 'all')" id="defaultOpen">all</button>
-                    <button class="tablinks" onclick="openContent(event, 'Work')">Work</button>
-                    <button class="tablinks" onclick="openContent(event, 'ideas')">ideas</button>
-                    <button class="tablinks" onclick="openContent(event, 'Mockup')">Mockup</button>
-                    <button class="tablinks" onclick="openContent(event, 'PSD')">PSD</button>
-                    <button class="tablinks" onclick="openContent(event, 'Design')">Design</button>
-                    <button class="tablinks" onclick="openContent(event, 'Logo')">Logo</button>
-                    <button class="tablinks" onclick="openContent(event, 'Presentation')">Presentation</button>
-                    <button class="tablinks" onclick="openContent(event, 'Icons')">Icons</button>
-                  </div>
-                
-                  <div id="all" class="tabcontent">
-                    <h3>All</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  
-                  <div id="Work" class="tabcontent">
-                    <h3>Work</h3>
-                    <p>Lorem ipsum dolor sit amet.</p> 
-                  </div>
-                  
-                  <div id="ideas" class="tabcontent">
-                    <h3>ideas</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div id="Mockup" class="tabcontent">
-                    <h3>Mockup</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div id="PSD" class="tabcontent">
-                    <h3>PSD</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div id="Design" class="tabcontent">
-                    <h3>Design</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div id="Logo" class="tabcontent">
-                    <h3>Logo</h3>
-                    <p>Lorem ipsum dolor sit amet..</p>
-                  </div>
-                  <div id="Presentation" class="tabcontent">
-                    <h3>Presentation</h3>
-                    <p>Lorem ipsum dolor sit amet..</p>
-                  </div>
-                  <div id="Icons" class="tabcontent">
-                    <h3>Icons</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-
+                <h2>Latest Projects</h2>
+                <div class="projects">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openContent(event, 'all')" id="defaultOpen">all</button>
+                        <button class="tablinks" onclick="openContent(event, 'Work')">Work ideas</button>
+                        <button class="tablinks" onclick="openContent(event, 'Mockup')">Mockup</button>
+                        <button class="tablinks" onclick="openContent(event, 'PSD')">PSD Design</button>
+                        <button class="tablinks" onclick="openContent(event, 'Logo')">Logo</button>
+                        <button class="tablinks" onclick="openContent(event, 'Presentation')">Presentation</button>
+                        <button class="tablinks" onclick="openContent(event, 'Icons')">Icons</button>
+                    </div>
+                    <div id="all" class="tabcontent">
+                        <img src="images/2.png" alt="images" class="content-img">
+                    </div>
+                    <div id="Work" class="tabcontent">
+                        <img  src="images/6.png" alt="images" class="content-img">
+                        <div class="content-text">
+                            <img src="images/heart.svg" alt="icon">
+                            <span>9 MONTS AGO</span>
+                            <h3>Work ideas</h3>
+                        </div>
+                    </div>
+                    <div id="Mockup" class="tabcontent">
+                        <img  src="images/2.png" alt="images"class="content-img">
+                        <div class="content-text">
+                            <img src="images/heart.svg" alt="icon">
+                            <span>9 MONTS AGO</span>
+                            <h3>Mockup</h3>
+                        </div>
+                    </div>
+                    <div id="PSD" class="tabcontent">
+                        <img  src="images/3.png" alt="images"class="content-img">
+                        <div class="content-text">
+                            <img src="images/heart.svg" alt="icon">
+                            <span>9 MONTS AGO</span>
+                            <h3>PSD Design</h3>
+                        </div>
+                    </div>
+                    <div id="Logo" class="tabcontent">
+                        <img  src="images/4.png" alt="images"class="content-img">
+                        <div class="content-text">
+                            <img src="images/heart.svg" alt="icon">
+                            <span>9 MONTS AGO</span>
+                            <h3>Logo</h3>
+                        </div>
+                    </div>
+                    <div id="Presentation" class="tabcontent">
+                        <img  src="images/6.png" alt="images"class="content-img">
+                        <div class="content-text">
+                            <img src="images/heart.svg" alt="icon">
+                            <span>9 MONTS AGO</span>
+                            <h3>Presentation</h3>
+                        </div>
+                    </div>
+                    <div id="Icons" class="tabcontent">
+                        <img  src="images/8.png" alt="images"class="content-img">
+                        <div class="content-text">
+                            <img src="images/heart.svg" alt="icon">
+                            <span>9 MONTS AGO</span>
+                           <h3>Icons</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
         <section> <!-- section 6 - latest articles -->
-            <div class="section6"></div>
-                <h6>NEWS & EVENT</h6>
+            <div class="section6">
+                <h5>NEWS & EVENT</h5>
                 <h2>Latest Articles</h2>
-                <div class="articleContent">
-                    <div>
+                <div class="article-content">
+                    <div class="article-text">
                         <img src="images/Icon1.svg" alt="icon" > 
                         <h6> IN FREELANCING COMPANY </h6>
                         <h4> Graphic Designer+ </h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quibusdam odit mollitia fugit provident consequatur magni molestias eum. Ea, dolor.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi architecto accusantium quasi tempore? Dolor, nihil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quibusdam odit mollitia fugit provident consequatur magni molestias eum. Ea, dolor.</p>
                     </div>
-                    <div> 2020-2021 </div>
+                    <div class="years">
+                        <span> 2020-2021 </span>
+                    </div>
                     <div>
-                        <img src="images/1.png" alt="coding" class="articleImages">
+                        <img  src="images/article1.jpg" alt="coding" class="article-img">
                     </div>
                 </div>
-                <div class="articleContent">
-                    <div>
-                        <img src="images/5.png" alt="coding" class="articleImages">
+                <div class="article-content-middle">
+                    <div >
+                        <img  src="images/article2.jpg" alt="coding" class="article-img">
                     </div>
-                    <div> 2019-2020 </div>
-                    <div>
-                        <img src="images/Icon2.svg" alt="icon"> 
+                    <div class="years"> 
+                        <span>2019-2020 </span> 
+                    </div>
+                    <div class="article-text">
+                        <img  src="images/Icon2.svg" alt="icon"> 
                         <h6> IN FREELANCING COMPANY </h6>
                         <h4> Application Design </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos accusamus itaque blanditiis earum officiis doloribus error quod ratione impedit?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit rerum illo dolore sed incidunt perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos accusamus itaque blanditiis earum officiis doloribus error quod ratione impedit?</p>
                     </div>   
                 </div>
-                <div class="articleContent">
-                    <div>
-                        <img src="images/Icon3.svg" alt="icon">
+                <div class="article-content">
+                    <div class="article-text">
+                        <img  src="images/Icon3.svg" alt="icon">
                         <h6> IN FREELANCING COMPANY </h6>
                         <h4> Personal Adviser </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum voluptatibus culpa? Eum nemo quibusdam vero ut illum officiis laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi id facere fuga ut cumque corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum voluptatibus culpa? Eum nemo quibusdam vero ut illum officiis laborum?</p>
                     </div>
-                    <div> 2018-2019 </div>
+                    <div class="years"> 
+                        <span>2018-2019</span>   
+                    </div>
                     <div>
-                        <img src="images/7.png" alt="coding" class="articleImages">
+                        <img  src="images/article3.png" alt="coding" class="article-img">
                     </div>
 
                 </div>
-             </div>
-
+            </div>
         </section>
         <section> <!-- section 7 - rose team  -->
-            <div>
-                <h6> NEWS & EVENT </h6>
-                <h4> Rosa Team </h4>
-                
+            <div class="section7">
+                <h5> NEWS & EVENT </h5>
+                <h2> Rosa Team </h2>
                 <div class="user-comments">
-                    <div class="logo-holder"> 
-                        <img src="images/marge.png" alt="user avatar" class="image avatar">
+                    <div class="team-item"> 
+                        <div class= "hide "> 
+                            <img src="images/marge.png" alt="user avatar" class="avatar">
+                        </div>
                         <div class="text">
                             <h6> CLIENT 1 </h6>
                             <p>ipsum dolor sit.</p>  
                         </div>
                     </div>
-                    <div class="logo-holder">  
-                        <img src="images/homer.png" alt="user avatar" class="image avatar">
+                    <div class="team-item"> 
+                        <div class="hide">
+                    <img src="images/homer.png" alt="user avatar" class= "avatar">
+                        </div> 
+                        
                         <div class="text">
                             <h6> CLIENT 2 </h6>
                             <p>ipsum dolor sit.</p>  
                         </div>
                     </div>
-                    <div class="logo-holder">  
-                        <img src="images/bart.png" alt="user avatar" class="image avatar">
+                    <div class="team-item">
+                        <div class="hide">
+                            <img src="images/bart.png" alt="user avatar" class=  "avatar">
+                        </div>  
                         <div class="text">
                             <h6> CLIENT 3 </h6>
                             <p>ipsum dolor sit.</p>  
                         </div>
                     </div>
-                    <div class="logo-holder">  
-                        <img src="images/lisa.png" alt="user avatar" class="image avatar">
+                    <div class="team-item"> 
+                        <div class="hide"> 
+                    <img src="images/lisa.png" alt="user avatar" class=  "avatar">
+                        </div> 
                         <div class="text">
                             <h6> CLIENT 4 </h6>
                             <p>ipsum dolor sit.</p>  
                         </div>
                     </div>
-                    <div class="logo-holder">  
-                        <img src="images/maggie.png" alt="user avatar" class="image avatar">
+                    <div class="team-item">
+                        <div class="hide"> 
+                            <img src="images/maggie.png" alt="user avatar" class=  "avatar">
+                        </div>  
                         <div class="text">
                             <h6> CLIENT 5 </h6>
                             <p>ipsum dolor sit.</p>  
@@ -338,70 +414,73 @@
                 </div>
             </div>
         </section>
-        <section> <!-- section 8 -  contact us - contact form -->
+        <section class="section8"> <!-- section 8 -  contact us - contact form -->
             <div class="contact-form"> 
+                <div class="contact-form-title"> 
+                    <h3>CONTACT US</h3>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                </div>
                 <form id="user-registraion-form">
-                    <div class="form-group">
+                    <div class="inline-group">
+                        <div class="form-group">
                         <input name="id" type="hidden">
-                        
                     </div>
                     <div class="form-group">
-                        <label >
+                        <label class="label" >
                             <input type="text" name="first_name"   placeholder="Your Name">
                         </label>   
                     </div>
                     <div class="form-group">
-                        <label >
+                        <label class="label" >
                             <input type="email" name="email"  placeholder="Email Address*">
                         </label>    
                     </div> 
                     <div class="form-group">
-                        <label>
+                        <label class="label">
                             <input type="text" name="website"  placeholder="Your Website*">
                         </label>
                     </div>
-                    <div class="form-group">
+                </div>
+                    <div class="form-group message">
                          <textarea  name="Message" placeholder="Message*" style="height:200px"></textarea>
                     </div>
                     <div id="modal-btn">
                         <button type="submit" value="submit" id="preventRefresh"> SEND MESSAGE </button>
                     </div>
                    	<!-- The Modal -->
-	<div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close">&times;</span>
-          
-          </div>
-          <div class="modal-body">
-            <p>Thank you for getting in touch! We appreciate you contacting us.</p>
-            
-          </div>
-          <div class="modal-footer">
-          </div>
-        </div>
-    </div>
+	                <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                            </div>
+                            <div class="modal-body">
+                                <p>Thank you for getting in touch! We appreciate you contacting us.</p>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </section>
-        <footer>
-            <div>
-                <h4>Roca.</h4>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. </p>
-                    <div>
-                        <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
-                        <a href=""> <img src="images/google.png" alt="google +" ></a>
-                        <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
-                        <a href=""> <img src="images/github.png" alt="github"></a>
+        <footer class="footer">
+            <div class="footer-container">
+                <div >
+                    <h4 class="footer-title">Roca.</h4>
+                    <div class="footer-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. </p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/profile.php?id=100070383762788"> <img src="images/facebook.png" alt="facebook"></a>
+                            <a href=""> <img src="images/google.png" alt="google +" ></a>
+                            <a href=""> <img src="images/linkedin.png" alt="linkedin"></a>
+                            <a href=""> <img src="images/github.png" alt="github"></a>
+                        </div>
                     </div>
                 </div>
+                <div class="rigths">
+                    <p> © All right reserved 2019. Rosa - Creative Agency Website PSD Template. </p>
+                </div>
             </div>
-            <div>
-                <p> © All right reserved 2019. Rosa - Creative Agency Website PSD Template. </p>
-            </div>
+            
         </footer>
       <script src="app.js"></script>
     </body>

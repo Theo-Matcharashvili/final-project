@@ -13,25 +13,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
   }
-// section 4 - slider 
-  /*slideShow();
-  function slideShow(){
-    let i;
-    var slide = document.querySelectorAll("slides");
-    var dots = document.querySelectorAll("dot");
-    for (i = 0; i < slide.length; i++) {
-      slide[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slide.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slide[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(slideShow, 2000); // Change image every 2 seconds
-  }
-*/
+
   
    function dotsOnSlider() { 
     let dots = document.getElementsByClassName("dot");
@@ -98,26 +80,6 @@ function move4() {
       }
   }
 } 
-//section 4
-//section5
-
-/*function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-*/
 function openContent(evt, contentName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
